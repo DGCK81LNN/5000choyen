@@ -34,8 +34,8 @@ Drawer.prototype.refresh = function() {
         this.topText.font = "100px notobk";
         this.bottomText.font = "100px notoserifbk";
     } else {
-        this.topText.font = "100px 'Noto Sans SC'";
-        this.bottomText.font = "100px 'Noto Serif SC'";
+        this.topText.font = "100px 'Noto Sans SC', '黑体', '苹方-简', 'PingFang SC', '微软雅黑', 'Microsoft YaHei', sans-serif";
+        this.bottomText.font = "100px 'Noto Serif SC', '宋体', 'SimSong', 'SontTi SC', '华文宋体', 'STSong', serif";
     }
 
     this.topText.draw();
